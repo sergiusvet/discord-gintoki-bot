@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --progress"
+    "build": "webpack --progress",
+    "app": "npm run build && node build/app.js"
   },
   "author": "",
   "license": "ISC",
